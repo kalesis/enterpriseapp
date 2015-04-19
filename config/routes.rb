@@ -12,5 +12,5 @@ Rails.application.routes.draw do
   get 'welcome/features'
 
   resources :invoices
-  root to: 'invoices#index'
+  root to: 'welcome#index'
 end
